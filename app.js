@@ -1,5 +1,6 @@
 import e from "express";
 import { main } from "./db/db.js";
+import { TaskModel } from "./models/TaskModel.js";
 
 const app = e();
 const port = 9000;
