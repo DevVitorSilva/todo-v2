@@ -1,0 +1,12 @@
+{
+  "name": "todo-v2",
+  "version": "1.0.0",
+  "description": "colocando conhecimento em prática.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Vitor",
+  "license": "ISC",
+  "type": "module"
+}
