@@ -1,12 +1,11 @@
 import { Router } from "express";
+import { getAllTasks } from "../controllers/taskController.js";
 
 const routes = Router();
 
-routes.get('/', (req, res) => {
-    res.send('Hello 2');
-});
+routes.get('/', getAllTasks);
 
 export {
     routes,
-    
+
 }

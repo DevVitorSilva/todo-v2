@@ -12,6 +12,5 @@ const taskSchema = new Schema(
 const TaskModel = new model('task', taskSchema);
 
 export {
-    TaskModel,
-    
+    TaskModel
 }

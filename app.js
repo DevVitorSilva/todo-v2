@@ -1,6 +1,5 @@
 import e from "express";
 import { main } from "./db/db.js";
-import { TaskModel } from "./models/TaskModel.js";
 import { routes } from "./routes/taskRoute.js";
 import { fileURLToPath } from 'url';
 import path, { dirname } from 'path';
