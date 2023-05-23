@@ -8,10 +8,24 @@
 </head>
 <body>
     
+    <form action="/" method="post">
+        <input type="text" name="task">
+        <button>Add</button>
+    </form>
+    
+
     <% for( let index = 0; index < docs.length; index++ ) { %>
-        <div>
-            <%= docs[index].task %>
-        </div>
+        <form method="post" action="/?_method=DELETE" >
+            <div>
+                <%= docs[index].task %>
+            </div>
+            <div>
+                <input name="id" value="<%= docs[index]._id %>" hidden>
+                <a href="/edit/<%= docs[index]._id %>">Edit</a>
+                <button type="submit">Delete</button>
+            </div>
+        </form>
+        
     <% } %>
     
 </body>
