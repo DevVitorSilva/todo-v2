@@ -3,6 +3,7 @@ import { main } from "./db/db.js";
 import { routes } from "./routes/taskRoute.js";
 import { fileURLToPath } from 'url';
 import path, { dirname } from 'path';
+import serveFavicon from "serve-favicon";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -16,6 +17,8 @@ main().
 catch((err) => {
     console.log(`erro com database: ${err}`);
 });
+
+app.use(serveFavicon(__dirname + '/public/favicon.ico'))
 
 app.use(routes);
 
