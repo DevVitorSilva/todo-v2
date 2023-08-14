@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
-async function main(){
-    await mongoose.connect('mongodb://localhost/tasks', 
+async function main(uri){
+    await mongoose.connect(uri, 
         {
             useNewUrlParser: true,
             useUnifiedTopology: true
