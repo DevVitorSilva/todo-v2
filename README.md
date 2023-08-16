@@ -7,3 +7,38 @@ Este, assim como o [toDoList](https://github.com/DevVitorSilva/toDoList), foi fe
 
 Como ultilizar:
 
+Adicionando tarefa
+
+![adding-task](images/adding-task.png)
+
+Deletando tarefa
+
+![deleted-task](images/deleted-task.png)
+
+
+Tela de edição de tarefa
+
+![screen-editing-task](images/screen-editing-task.png)
+
+Tarefa adicionada
+
+![task-added](images/task-added.png)
+
+Marcando tarefa como concluida
+
+![task-done](images/task-done.png)
+
+Editando tarefa
+
+![task-edited](images/task-edited.png)
+
+Tela inicial
+
+![todo-v2-screen-initial](images/todo-v2-screen-initial.png)
+
+Tarefa atualizada
+
+![updated-task](images/updated-task.png)
+
+
+
