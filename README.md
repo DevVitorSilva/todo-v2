@@ -42,7 +42,7 @@ Este, assim como o [toDoList](https://github.com/DevVitorSilva/toDoList), foi fe
 
 ## Melhorias
 
-1. Quando você marca uma tarefa como concluída ele não é salvo no banco de dados, o que siginifica que se a página recarregar a tarefa antes marcada como concluída não estará marcada como concluída.
+1. Quando você marca uma tarefa como concluída, ele não é salvo no banco de dados, o que significa que se a página recarregar a tarefa antes marcada como concluída não estará marcada como concluída.
 
 ## Tecnologias usadas
 
